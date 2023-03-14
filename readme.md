@@ -2,7 +2,7 @@
 
 # ![image-1.png](./image-1.png)  Planto - 당신 곁의 반려화분
 
-> <h3> 똑똑한 화분, 똑분이
+> <h3> 당신의 친구 Planto
 
 ![image-2.png](./image-2.png)
 
