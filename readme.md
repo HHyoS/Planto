@@ -156,3 +156,56 @@
   - 뱃지 클릭 시 업적의 세부 내용과 달성 기준 모달로 표시
   - 이용자의 planto 교감 및 지속적인 생육 관심 유도
 
+​
+
+
+## &#128215; 아키텍처
+
+![image](https://user-images.githubusercontent.com/57944215/225843584-7458ce9f-5c03-4c38-8e2f-0226e60dc947.png)
+     
+<br>   <br>
+
+## &#128217; 포팅메뉴얼
+
+[PLANTO_포팅매뉴얼 (1).pdf](https://github.com/HHyoS/Planto/files/10999001/PLANTO_.1.pdf)
+
+
+## &#128187; 서비스 화면
+
+[ 스마트 화분 ]
+
+### 1. Onboarding
+
+- 플랜토는 전원을 연결하면 초기 화면으로 QR코드를 표시해줍니다. 플랜토 구매 후 첫 부팅시 QR코드를 등록하여 화분과 웹을 연동시킬 수 있습니다.
+
+* 만약 이미 등록된 상태라면 디스플레이를 한번 터치하는것으로 다음 화면으로 넘어갈 수 있습니다.
+
+![image](https://user-images.githubusercontent.com/57944215/225845920-6c4735c2-6427-4caf-9177-dff6f84e4786.png)
+
+<br>
+
+### 2. Interaction
+
+
+- 플랜토는 1) 온.습도 2) 조도 3) 토양 습도센서 4) 소리 5) 진동 6) 압력 센서의 데이터를 이용하여 감정을 표현, 사용자와 상호작용 합니다.
+
+- 상호작용을 통해 호감도의 상승, 하락이 가능하고, 호감도에 따라 플랜토의 기분이 바뀌니 조심해주세요!
+
+![image](https://user-images.githubusercontent.com/57944215/225847206-15ae82b7-643f-4d68-9e8b-7608b8e06441.png)
+
+![image](https://user-images.githubusercontent.com/57944215/225849646-e18f91a3-da62-4567-bc9d-a3125ab26b62.png)
+
+![image](https://user-images.githubusercontent.com/57944215/225849701-1c85d61f-a341-4be7-b4b9-db5e4b487780.png)
+
+### 3. Display weather information
+
+- 플랜토는 웹과 통신을 통해 실시간 날씨 데이터를 받아와 화면에 표시해줍니다.
+
+ * 날씨 정보가 필요하다면 디스플레이 터치!
+ 
+ ![image](https://user-images.githubusercontent.com/57944215/225849205-4278fb58-16f0-47d1-8edd-f3d60b158318.png)
+
+
+
+
+
