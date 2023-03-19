@@ -171,9 +171,10 @@
 
 ## &#128187; 서비스 화면
 
-[ 스마트 화분 ]
 
-### 1. Onboarding
+### [스마트 화분] 
+
+#### 1. Onboarding 
 
 - 플랜토는 전원을 연결하면 초기 화면으로 QR코드를 표시해줍니다. 플랜토 구매 후 첫 부팅시 QR코드를 등록하여 화분과 웹을 연동시킬 수 있습니다.
 
@@ -183,7 +184,7 @@
 
 <br>
 
-### 2. Interaction
+#### 2. Interaction
 
 
 - 플랜토는 1) 온.습도 2) 조도 3) 토양 습도센서 4) 소리 5) 진동 6) 압력 센서의 데이터를 이용하여 감정을 표현, 사용자와 상호작용 합니다.
@@ -203,6 +204,59 @@
  * 날씨 정보가 필요하다면 디스플레이 터치!
  
  ![image](https://user-images.githubusercontent.com/57944215/225849205-4278fb58-16f0-47d1-8edd-f3d60b158318.png)
+
+
+
+### [Web]
+
+#### 1. Introduce
+
+ - 웹으로 접속 시 보이는 소개화면
+ 
+ - 화면에 존재하는 QR코드를 통해 Planto 모바일 서비스로 이동
+ 
+![Untitled](https://user-images.githubusercontent.com/57944215/226173730-557eaa85-f7ff-474c-b512-0ffda5a7953e.png)
+
+
+
+#### 2. 메인
+
+ - 카카오 로그인을 통해 회원가입을 할 수 있고, 카카오 로그인 이후 식물 등록 가능
+ 
+![Untitled (1)](https://user-images.githubusercontent.com/57944215/226173738-d5112c7c-9278-4229-b47f-c49476cd73df.png)
+
+#### 3. 식물 사전
+
+ - 농사로 API에 저장되어있는 식물 데이터를 바탕으로 사용자에게 정보를 제공하는 화면
+ 
+ - 식물에게 필요한 조도,습도 등 환경정보를 제공하여 사용자가 식물을 선택할 수 있도록 구현
+ 
+![Untitled (2)](https://user-images.githubusercontent.com/57944215/226173757-9f45bae7-7ce0-4ea6-bc05-04e220ee7ba8.png)
+
+![Untitled (3)](https://user-images.githubusercontent.com/57944215/226173759-16966708-8e6d-44f8-a001-77de8d368293.png)
+
+#### 4. 식물 정보 등록
+
+  - Planto 부팅 시 화면에 존재하는 QR코드를 통해 Planto의 고유 Serial Number를 확인하고, 해당 값을 바탕으로 Planto를 앱에 등록하여 통신 시작
+
+![Untitled (4)](https://user-images.githubusercontent.com/57944215/226173788-afde241b-6963-499c-a0ac-052f23344901.png)
+
+#### 5. 식물 정보
+
+  - 현재 로그인되어있는 계정과 연동된 Planto의 정보를 확인할 수 있는 화면
+  
+  - 센서 데이터를 수집한 환경 데이터와 사용자와 상호작용을 통해 쌓은 호감도를 시각화하여 보여줌
+  
+![Untitled (6)](https://user-images.githubusercontent.com/57944215/226174116-f5d54534-540a-4572-a5f6-2ff2bb3568af.png)
+
+#### 6. 업적 시스템
+
+ - Planto와 상호작용을 DB에 저장하고, 해당 내용을 바탕으로 업적 달성 시 사용자에게 모달창으로 표시
+ 
+![Untitled (5)](https://user-images.githubusercontent.com/57944215/226173799-ec0b0dec-cf29-47b0-a1f4-e039ffc6782c.png)
+
+
+
 
 
 
