@@ -24,10 +24,10 @@
 
 ## 🎥 **실행 영상**
 - [Planto 보러가기](https://resisted-barracuda-447.notion.site/Planto-5e6748bbcb7b407ba6080f2777010cb7)
+ 
+![어두워짐 (4)](https://user-images.githubusercontent.com/57944215/226176076-f8cdb838-afa9-41d3-aea9-878b5c28a9a2.gif)
 
-
-https://user-images.githubusercontent.com/57944215/226175553-3892f9a4-c152-44ed-8fd2-87173f154013.mp4
-
+ 
  
 ## 🕘 **프로젝트 진행 기간**
 
