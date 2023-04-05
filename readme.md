@@ -73,7 +73,7 @@
 <br>
 
 ## 🧾 프로젝트 산출물
-
+- [팀노션](https://resisted-barracuda-447.notion.site/WE-66d4d7b2d18144238da72862c950ecb5)
 - [컨벤션](https://www.notion.so/d705551eab504cc196b4208737384345)
 - [웹기능](https://www.notion.so/e68b9b75a0344f93a60bfaf7e3d79625)
 - [아키텍쳐 설계](https://www.notion.so/1ff26861849c4ec6ac4b9d8a2da33369)
