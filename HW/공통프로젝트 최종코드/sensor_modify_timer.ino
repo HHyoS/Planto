@@ -1,3 +1,4 @@
+#include <MsTimer2.h>
 #include "DHT.h"
 #define DHTPIN 12 
 #define DHTTYPE DHT11
@@ -15,9 +16,8 @@
 #define SHOCK 13
 // 충격 센서 
 
-unsigned long previousMillis = 0; // 이전에 측정한 시간을 저장할 변수
-const long interval = 1000; // 측정 간격 (1초)
-
+float plant_temp;
+float plant_hum;
 DHT dht(DHTPIN, DHTTYPE); 
 void setup() {
 
@@ -26,16 +26,13 @@ void setup() {
     Serial.println("Comport Connected..!");
     
   dht.begin();
+  temp_hum_measure(); // 처음 실행 시 온도와 습도 측정
+  MsTimer2::set(2000, temp_hum_measure); // 2초 간격으로 temp_hum_measure() 함수 실행
+  MsTimer2::start(); // 타이머 시작
 }
 
 void loop() {
-  unsigned long currentMillis = millis(); // 현재 시간을 저장
 
-  if (currentMillis - previousMillis >= interval) { // 현재 시간이 이전 측정 시간과 1초 이상 차이가 날 경우
-    previousMillis = currentMillis; // 이전 측정 시간을 현재 시간으로 업데이트
-
-  float plant_temp = dht.readTemperature()-5;
-  float plant_hum = dht.readHumidity();
   float plant_light = analogRead(LIGHT);
   float plant_moi = analogRead(MOISTURE);
   
