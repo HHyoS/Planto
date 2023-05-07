@@ -19,6 +19,12 @@
 float plant_temp;
 float plant_hum;
 DHT dht(DHTPIN, DHTTYPE); 
+
+void temp_hum_measure() {
+  plant_temp = dht.readTemperature() - 5;
+  plant_hum = dht.readHumidity();
+}
+
 void setup() {
 
     pinMode(SHOCK,INPUT);
